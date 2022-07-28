@@ -1,0 +1,67 @@
+.container {
+    padding: 20px;
+    color: #171212;
+}
+
+.headling-primary {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.story > span {
+    padding: 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.story > span > a {
+    color: inherit;
+}
+
+.button {
+    background: transparent;
+    border: 1px solid #171212;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.button:hover {
+    background: #171212;
+    color: #ffffff;
+}
+
+.button-small {
+    padding: 5px;
+}
+
+.button-large {
+    padding: 10px;
+}
+
+.search-form {
+    padding: 10px 0 20px 0;
+}
+
+.label {
+    border-top: 1px sold #171212;
+    border-left: 1px sold #171212;
+    padding-left: 5px;
+    font-size: 24px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #171212;
+    background-color: transparent;
+    font-size: 24px;
+}
