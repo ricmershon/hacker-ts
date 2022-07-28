@@ -13,7 +13,7 @@ import React, { useEffect, useRef } from 'react';
  * @returns InputWithLabel component
  */
 
- type InputWithLabelProps = {
+type InputWithLabelProps = {
     id: string;
     value: string;
     type?: string;

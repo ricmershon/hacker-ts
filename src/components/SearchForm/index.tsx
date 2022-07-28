@@ -12,7 +12,7 @@ import InputWithLabel from '../InputWithLabel';
  * @returns SearchForm component
  */
 
- type SearchFormProps = {
+type SearchFormProps = {
     searchTerm: string;
     onSearchInput: (event: React.ChangeEvent<HTMLInputElement>) => void;
     onSearchSubmit: (event: React.ChangeEvent<HTMLFormElement>) => void;

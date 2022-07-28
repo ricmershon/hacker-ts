@@ -212,8 +212,8 @@ const App = () => {
                 onSearchInput={handleSearchInput}
                 onSearchSubmit={handleSearchSubmit}
             />
-            &nbsp;
 
+            &nbsp;
 
             <p>
                 Searching for {searchTerm}
@@ -234,10 +234,5 @@ const App = () => {
         </div>
     );
 };
-
-
-
-
-
 
 export default App;
